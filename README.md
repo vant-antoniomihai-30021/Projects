@@ -6,4 +6,4 @@ The game look like this:
 The webpage looks like this:
 <img src="/images/restaurant.png" style="width:50%;height:50%">
 When the ”command” button is clicked it will open an integrated command window in the middle of the page:
-<img src="/images/command.png" style="width:50%;height:50%">
+<img src="/images/commandWindow.png" style="width:50%;height:50%">
