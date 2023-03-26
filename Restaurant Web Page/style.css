@@ -1,0 +1,302 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.menu {
+  background: rgba(231, 231, 231, 0.651);
+  display: flex;
+  height: 70px;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.businessName {
+    font-size: 40px;
+    color: #292727;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-bottom: 1px solid black;
+    border-radius: 20%;
+    border-bottom-style: double;
+  }
+  .businessName:hover{
+    cursor:default;
+  }
+
+a {
+  text-decoration: none;
+  font-size: 30px;
+  color: #000000;
+  margin: 15px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  transition: 0.3s all ease;
+  border-color: rgb(251, 253, 255);
+}
+
+a:hover {
+  text-shadow: 0px 0px 2px rgb(2, 2, 2);
+  color: white;
+  cursor: pointer;
+}
+
+body {
+  background-color: rgb(238, 238, 238);
+}
+
+p {
+  font-size: 25px;
+  padding: 9px;
+  text-align: justify;
+  text-shadow: 0px 0px 1px rgb(0, 0, 0);
+}
+
+.businessName:hover {
+  border-radius: 5%;
+}
+
+.image {
+  width: 100%;
+  display: flex;
+  padding-top: 55px;
+}
+@media only screen and (max-width: 1200px) {
+  .image {
+    overflow: scroll;
+  }
+}
+
+.firstImg {
+  transition: 0.5s all;
+  margin-top: 6%;
+  margin-left: 3%;
+  width: 70%;
+  border-color: rgb(221, 220, 220);
+}
+
+.firstImgText {
+  margin-left: 19%;
+  margin-top: -2px;
+  font-size: 23px;
+  padding: 2px;
+  width: 270px;
+  height: 35px;
+}
+
+.firstImg:hover {
+  transition: 0.5s all;
+  width: 75%;
+  border: none;
+}
+
+.secondImg {
+  transition: 0.5s all;
+  margin-top: 6%;
+  margin-left: 3%;
+  width: 70%;
+  border-color: rgb(221, 220, 220);
+}
+
+.secondImgText {
+  margin-left: 33%;
+  margin-top: -2px;
+  font-size: 23px;
+  padding: 2px;
+  width: 270px;
+  height: 35px;
+}
+
+.secondImg:hover {
+  transition: 0.5s all;
+  width: 75%;
+  border: none;
+}
+
+.thirdImg {
+  transition: 0.5s all;
+  margin-top: 6%;
+  margin-left: 3%;
+  width: 70%;
+  border-color: rgb(221, 220, 220);
+}
+
+.thirdImgText {
+  margin-left: 33%;
+  margin-top: -2px;
+  font-size: 23px;
+  padding: 2px;
+  width: 270px;
+  height: 35px;
+}
+
+.thirdImg:hover {
+  transition: 0.5s all;
+  width: 75%;
+  border: none;
+}
+
+.forthImg {
+  transition: 0.5s all;
+  margin-top: 6%;
+  margin-left: 3%;
+  width: 70%;
+  border-color: rgb(221, 220, 220);
+}
+
+.forthImgText {
+  margin-left: 33%;
+  margin-top: -2px;
+  font-size: 23px;
+  padding: 2px;
+  width: 270px;
+  height: 35px;
+}
+
+.forthImg:hover {
+  transition: 0.5s all;
+  width: 75%;
+  border: none;
+}
+
+.first {
+  margin-left: 85px;
+}
+
+.footerText {
+  color: rgb(26, 26, 26);
+  font-size: 18px;
+}
+
+.anotherFooterText {
+  color: rgb(26, 26, 26);
+  font-size: 18px;
+}
+
+.footer {
+  border-radius: 51% 49% 100% 0% / 100% 100% 0% 0;
+  position: absolute;
+  top: 85%;
+  background-color: #dfdfdf;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  z-index: 5;
+}
+
+.command {
+  width: 805px;
+  height: 700px;
+  background-color: rgb(255, 255, 255);
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -30%);
+  display: flex;
+  flex-direction: column;
+  visibility: hidden;
+  color: white;
+}
+
+input{
+  font-size: 25px;
+  border: 1px solid rgb(49, 49, 49);
+  border: none;
+  outline: none;
+}
+
+input:hover{
+  border-bottom: 1px solid gray;
+}
+
+.email{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+.number{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+}
+
+
+.emailTag{
+  background-color: white;
+  color:black;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.payment{
+  margin-top: 15px;
+  display: flex;
+  justify-content: center;
+  color: #000000;
+}
+
+.numberTag{
+  background-color: white;
+  color:black;
+  font-size: 25px;
+  text-align: center;
+  margin-right: 50px;
+}
+
+.options{
+  color:black;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  justify-content: space-evenly;
+  margin-top: 55px;
+}
+
+.paymentDiv{
+  display: flex;
+  margin-left: 30px;
+}
+
+.paymentTag{
+  margin-right: 5vh;
+}
+
+.continue{
+  font-size: 25px;
+  border:none;
+  background-color: rgb(255, 255, 255);
+  margin-top: 50px;
+}
+
+.continue:hover{
+  background-color: rgb(243, 243, 243);
+}
+
+.emptySpace{
+  background-color: #3d1d1d;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  transition: 1s all;
+  color: black;
+}
+
+.holding{
+  color:rgb(8, 8, 8);
+  margin-top: 6%;
+  font-size: 55px;
+  color: white;
+
+}
+
+.notHolding{
+  color: white;
+  text-shadow: none;
+}
+

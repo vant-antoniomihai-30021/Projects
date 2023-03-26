@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Eat and Chill</title>
+  </head>
+  <body>
+    <div id="main" class="container" onclick="hideCommand()">
+      <div class="menu">
+        <a class="home">Home</a>
+        <a class="businessName">Eat & Chill</a>
+        <a onclick="command()">Command</a>
+      </div>
+
+      <div id="image" class="image">
+        <div class="first">
+          <img
+            id="firstImg"
+            onmouseover="size()"
+            onmouseleave="resize()"
+            class="firstImg"
+            src="pexels-rajesh-tp-1624487.jpg"
+          />
+          <p id="firstImgText" class="firstImgText">Turkey & Ramen</p>
+        </div>
+        <div class="forth">
+          <img
+            id="forthImg"
+            onmouseover="size4()"
+            onmouseleave="resize4()"
+            class="forthImg"
+            src="pexels-jonathan-borba-2983099.jpg"
+          />
+          <p id="forthImgText" class="forthImgText">Burger</p>
+        </div>
+        <div class="sec">
+          <img
+            id="secondImg"
+            onmouseover="size2()"
+            onmouseleave="resize2()"
+            class="secondImg"
+            src="pexels-lumn-604969.jpg"
+          />
+          <p id="secondImgText" class="secondImgText">Pizza</p>
+        </div>
+        <div class="third">
+          <img
+            id="thirdImg"
+            onmouseover="size3()"
+            onmouseleave="resize3()"
+            class="thirdImg"
+            src="pexels-valeria-boltneva-842571 (1).jpg"
+          />
+          <p id="thirdImgText" class="thirdImgText">Salad</p>
+        </div>
+      </div>
+      <div id="footer" class="footer">
+        <p class="footerText">
+          Want to get in touch with us? Contact us at
+          <i>shop&chill@gmail.com</i>
+        </p>
+        <p class="anotherFooterText"><i>Good food for good people ~</i></p>
+      </div>
+    </div>
+
+    <div id="commandDiv" class="command">
+      <div class="email">
+        <p class="emailTag">Email</p>
+        <input
+          name="email"
+          type="email"
+          placeholder="Introduce your email..."
+        />
+      </div>
+      <div class="number">
+        <p class="numberTag">Phone</p>
+        <input
+          name="number"
+          type="text"
+          placeholder="Introduce your phone..."
+        />
+      </div>
+
+      <div class="options">
+        <div>
+          <img
+            src="pexels-rajesh-tp-1624487.jpg"
+            style="height: 150px; width: 150px"
+          />
+          <h3><input type="checkbox" />Turkey&Ramen</h3>
+        </div>
+
+        <div>
+          <img
+            src="pexels-valeria-boltneva-842571 (1).jpg"
+            style="height: 150px; width: 150px"
+          />
+          <h3><input type="checkbox" />Salad</h3>
+        </div>
+
+        <div>
+          <img
+            src="pexels-lumn-604969.jpg"
+            style="height: 150px; width: 150px"
+          />
+          <h3><input type="checkbox" />Pizza</h3>
+        </div>
+
+        <div>
+          <img
+            src="pexels-jonathan-borba-2983099.jpg"
+            style="height: 150px; width: 150px"
+          />
+          <h3><input type="checkbox" />Burger</h3>
+        </div>
+      </div>
+      <div class="payment">
+        <p class="paymentTag">Payment</p>
+
+        <div class="paymentDiv">
+          <input name="payment" type="radio" />
+          <p>Card</p>
+        </div>
+        <div class="paymentDiv">
+          <input name="payment" type="radio" />
+          <p>Cash</p>
+        </div>
+      </div>
+      <button  onmouseover="giveStyle()" onmouseleave="returnStyle()" class="continue">Continue</button>
+      <div id="footer2">
+        <p id="holdTag" class="notHolding">Ready to order?</p>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
+  </body>
+</html>
